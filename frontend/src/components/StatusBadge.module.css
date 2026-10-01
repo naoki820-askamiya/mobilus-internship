@@ -1,0 +1,32 @@
+.badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.waiting {
+  background-color: #fff3e0;
+  color: #e65100;
+}
+
+.mine {
+  background-color: #e8f5e9;
+  color: #2e7d32;
+}
+
+.others {
+  background-color: #e3f2fd;
+  color: #1565c0;
+}
+
+.closed {
+  background-color: #f5f5f5;
+  color: #757575;
+}
+
+.bot {
+  background-color: #f3e5f5;
+  color: #6a1b9a;
+}

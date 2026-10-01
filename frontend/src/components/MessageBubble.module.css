@@ -1,0 +1,56 @@
+.bubble {
+  max-width: 70%;
+  padding: 10px 14px;
+  border-radius: 12px;
+  position: relative;
+}
+
+.own {
+  align-self: flex-end;
+  background-color: #1976d2;
+  color: white;
+}
+
+.other {
+  align-self: flex-start;
+  background-color: #e0e0e0;
+  color: #333;
+}
+
+.system {
+  align-self: center;
+  text-align: center;
+  color: #999;
+  font-size: 12px;
+  padding: 4px 12px;
+  background-color: #f0f0f0;
+  border-radius: 12px;
+}
+
+.senderName {
+  display: block;
+  font-size: 11px;
+  color: #666;
+  margin-bottom: 2px;
+}
+
+.senderIcon {
+  display: block;
+  font-size: 11px;
+  color: #666;
+  margin-bottom: 2px;
+}
+
+.content {
+  word-break: break-word;
+  /* BOTの料金案内など、改行を含むメッセージをそのまま表示する */
+  white-space: pre-wrap;
+}
+
+.time {
+  display: block;
+  font-size: 10px;
+  margin-top: 4px;
+  opacity: 0.7;
+  text-align: right;
+}

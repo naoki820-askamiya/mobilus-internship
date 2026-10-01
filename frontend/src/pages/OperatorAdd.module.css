@@ -1,0 +1,100 @@
+.container {
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.main {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.title {
+  font-size: 20px;
+  margin-bottom: 16px;
+  color: #333;
+}
+
+.form {
+  background-color: white;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.field {
+  margin-bottom: 16px;
+}
+
+.field label {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 13px;
+  color: #666;
+}
+
+.field input {
+  width: 100%;
+}
+
+.error {
+  color: #f44336;
+  font-size: 13px;
+  margin-bottom: 12px;
+}
+
+.submitButton {
+  width: 100%;
+  background-color: #4caf50;
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.submitButton:disabled {
+  background-color: #bdbdbd;
+}
+
+.passwordCard {
+  margin-top: 24px;
+  background-color: white;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  border-left: 4px solid #4caf50;
+}
+
+.passwordCard h3 {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.notice {
+  font-size: 13px;
+  color: #f57c00;
+  margin-bottom: 12px;
+}
+
+.passwordRow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.password {
+  flex: 1;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  font-size: 18px;
+  font-family: monospace;
+  letter-spacing: 1px;
+}
+
+.copyButton {
+  background-color: #1976d2;
+  color: white;
+  padding: 10px 16px;
+}

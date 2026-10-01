@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  padding: 16px;
+}
+
+.button {
+  background-color: #1976d2;
+  color: white;
+  padding: 6px 12px;
+  font-size: 13px;
+}
+
+.button:disabled {
+  background-color: #bdbdbd;
+  cursor: not-allowed;
+}
+
+.info {
+  font-size: 14px;
+  color: #666;
+}

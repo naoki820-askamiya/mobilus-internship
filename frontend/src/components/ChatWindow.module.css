@@ -1,0 +1,14 @@
+.container {
+  flex: 1;
+  overflow-y: auto;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.empty {
+  text-align: center;
+  color: #999;
+  margin-top: 40px;
+}

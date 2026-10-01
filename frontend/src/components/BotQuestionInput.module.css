@@ -1,0 +1,99 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 12px 16px;
+  border-top: 1px solid #e0e0e0;
+  background-color: white;
+}
+
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.optionButton {
+  padding: 8px 16px;
+  border: 1px solid #1976d2;
+  border-radius: 16px;
+  background-color: white;
+  color: #1976d2;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.optionButton:hover:not(:disabled) {
+  background-color: #e3f2fd;
+}
+
+.optionButton:disabled {
+  border-color: #bdbdbd;
+  color: #bdbdbd;
+  cursor: not-allowed;
+}
+
+.sizeContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.sizeForm {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.sizeFields {
+  display: flex;
+  gap: 8px;
+}
+
+.sizeField {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  flex: 1;
+}
+
+.sizeLabel {
+  font-size: 13px;
+  color: #555;
+  white-space: nowrap;
+}
+
+.sizeInput {
+  width: 100%;
+  min-width: 0;
+  padding: 6px 8px;
+  border: 1px solid #bdbdbd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.sizeUnit {
+  font-size: 13px;
+  color: #555;
+}
+
+.submitButton {
+  align-self: flex-start;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #1976d2;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.submitButton:disabled {
+  background-color: #bdbdbd;
+  cursor: not-allowed;
+}
+
+.error {
+  font-size: 12px;
+  color: #c62828;
+}

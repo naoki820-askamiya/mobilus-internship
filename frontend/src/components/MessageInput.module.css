@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  gap: 8px;
+  padding: 12px 16px;
+  border-top: 1px solid #e0e0e0;
+  background-color: white;
+}
+
+.input {
+  flex: 1;
+}
+
+.button {
+  background-color: #1976d2;
+  color: white;
+  font-weight: bold;
+}
+
+.button:disabled {
+  background-color: #bdbdbd;
+  cursor: not-allowed;
+}

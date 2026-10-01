@@ -1,0 +1,188 @@
+.container {
+  margin: 0 auto;
+  background-color: #f5f5f5;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.containerEntry {
+  min-height: 100vh;
+  max-width: 900px;
+}
+
+.containerChat {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  max-width: 600px;
+  background-color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  background-color: #1976d2;
+  color: white;
+}
+
+.headerTitle {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.headerActions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.headerActions [class*="text"] {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.entryMain {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 32px 24px;
+}
+
+.chatBody {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-height: 0;
+}
+
+.card {
+  padding: 24px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.sectionTitle {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 20px;
+}
+
+.description {
+  max-width: 680px;
+  margin: 0 auto 12px;
+  color: #555;
+  line-height: 1.7;
+}
+
+.note {
+  margin-top: 12px;
+  color: #666;
+  font-size: 12px;
+}
+
+.waitTimeValue {
+  margin: 24px 0 8px;
+  color: #1976d2;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.updatedAt {
+  color: #666;
+  font-size: 12px;
+}
+
+.chatButton,
+.retryButton {
+  background-color: #1976d2;
+  color: white;
+  font-weight: bold;
+}
+
+.chatButton {
+  min-width: 240px;
+  margin-top: 24px;
+  padding: 12px 24px;
+  font-size: 16px;
+}
+
+.retryButton {
+  margin-top: 12px;
+}
+
+.chatButton:hover,
+.retryButton:hover {
+  background-color: #1565c0;
+}
+
+.chatButton:focus-visible,
+.retryButton:focus-visible {
+  outline: 3px solid rgba(25, 118, 210, 0.35);
+  outline-offset: 2px;
+}
+
+.statusMessage {
+  padding: 40px 16px;
+  color: #666;
+}
+
+.errorState {
+  padding: 24px 16px;
+  color: #f44336;
+}
+
+.warning {
+  margin-bottom: 16px;
+  padding: 10px 12px;
+  border: 1px solid #ffcc80;
+  border-radius: 4px;
+  background-color: #fff3e0;
+  color: #e65100;
+  font-size: 13px;
+}
+
+.closedMessage {
+  padding: 16px;
+  text-align: center;
+  color: #666;
+  background-color: #f5f5f5;
+  border-top: 1px solid #e0e0e0;
+}
+
+.noticeMessage {
+  padding: 16px;
+  text-align: center;
+  color: #666;
+  background-color: white;
+  border-top: 1px solid #e0e0e0;
+}
+
+.errorMessage {
+  padding: 16px;
+  text-align: center;
+  color: #c62828;
+  background-color: #ffebee;
+  border-top: 1px solid #e0e0e0;
+}
+
+@media (max-width: 600px) {
+  .entryMain {
+    gap: 16px;
+    padding: 16px 12px;
+  }
+
+  .card {
+    padding: 20px 12px;
+  }
+
+  .waitTimeValue {
+    font-size: 28px;
+  }
+
+  .chatButton {
+    width: 100%;
+    min-width: 0;
+  }
+}
